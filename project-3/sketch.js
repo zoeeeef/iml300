@@ -100,12 +100,12 @@ function draw() {
   image(dustyFace, 500, 600);
   image(genieLamp, 700, 400);
     g.position(900,500);
-  p.position(925, 515);
-  y.position(950, 505);
+  p.position(950, 550);
+  y.position(1000, 600);
   x.position(940, 490);
-  v.position (890, 510);
+  v.position (870, 510);
   x.position(895, 507);
-  o.position(930, 513);
+  o.position(960, 575);
     genieDust.position(-2000, -2000);
     forceSmile.position(-2000, -2000);
     loadingSign.position(-2000, -2000);
@@ -121,7 +121,7 @@ div.position(10, 0);
 let a = createA('page-2.html', 'how are you');
     a.style("font-size", "30px")
     a.style("color", 'white')
-a.position(50,50);
+a.position(50,200);
     
     console.log(g);
    g.class('draggable');
