@@ -33,6 +33,11 @@ let whoareyou;
 let tuyo;
 let rusleeping;
 let g;
+let o;
+let p;
+let v;
+let x;
+let y;
 let playFlag = false;
 
 function preload() {
@@ -71,6 +76,12 @@ function preload() {
   tuyo = loadSound("tuyo.mp3");
   rusleeping= loadImage("rusleeping.png");
     g = createImg("g.png", "green");
+  p = createImg ("p.png","pink");
+  o = createImg("o.png", "orange");
+  v = createImg ("v.png", "blue");
+  x = createImg ("x.png", "magenta");
+  y = createImg ("y.png", "last one"); 
+  
 
 }
 
@@ -89,6 +100,12 @@ function draw() {
   image(dustyFace, 500, 600);
   image(genieLamp, 700, 400);
     g.position(900,500);
+  p.position(925, 515);
+  y.position(950, 505);
+  x.position(940, 490);
+  v.position (890, 510);
+  x.position(895, 507);
+  o.position(930, 513);
     genieDust.position(-2000, -2000);
     forceSmile.position(-2000, -2000);
     loadingSign.position(-2000, -2000);
@@ -97,17 +114,27 @@ function draw() {
   
   
 let div = createDiv('disabled & divergent');
-div.style('font-size', '30px');
+div.style('font-size', '100px');
     div.style('color', 'white');
 div.position(10, 0);
   
 let a = createA('page-2.html', 'how are you');
     a.style("font-size", "30px")
     a.style("color", 'white')
-a.position(200,200);
+a.position(50,50);
     
     console.log(g);
    g.class('draggable');
+    $(".draggable").draggable();
+  p.class('draggable');
+    $(".draggable").draggable();
+  y.class('draggable');
+    $(".draggable").draggable();
+  v.class('draggable');
+    $(".draggable").draggable();
+   x.class('draggable');
+    $(".draggable").draggable();
+   o.class('draggable');
     $(".draggable").draggable();
   //key a == static sound & can you hear me image
   //key r == robin williams sound and genie dust gif 
