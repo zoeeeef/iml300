@@ -121,7 +121,7 @@ div.position(10, 0);
 let a = createA('page-2.html', 'how are you');
     a.style("font-size", "30px")
     a.style("color", 'white')
-a.position(50,200);
+a.position(500,500);
     
     console.log(g);
    g.class('draggable');
