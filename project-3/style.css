@@ -115,25 +115,25 @@ img {
 }
 
 .levelGreen {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding: 20px;
     text-align: center;
   height: 300;
 }
 .levelYellow {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding: 20px;
      text-align: center;
   height: 300;
 }
 .levelOrange {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding: 20px;
    text-align: center;
   height: 300;
 }
 .levelRed {
-  border: 1px solid red;
+  /*border: 1px solid red;*/
   padding: 20px;
    text-align: center;
   height: 300;
