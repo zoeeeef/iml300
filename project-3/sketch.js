@@ -32,6 +32,8 @@ let nightWeMet;
 let whoareyou;
 let tuyo;
 let rusleeping;
+let menOnMoon;
+let moonClouds;
 let g;
 let o;
 let p;
@@ -80,7 +82,9 @@ function preload() {
   o = createImg("o.png", "orange");
   v = createImg ("v.png", "blue");
   x = createImg ("x.png", "magenta");
-  y = createImg ("y.png", "last one"); 
+  y = createImg ("y.png", "last one");
+  moonClouds = createImg("moonClouds", "moon clouds");
+  menOnMoon = loadSound("menOnMoon.mp3");
   
 
 }
@@ -230,18 +234,18 @@ function keyTyped() {
   }
   else if (key === "g"){
     revenge.play();
-    image (whyareyousomean, random(700), random(200));
+    image (whyareyousomean, random(500), random(500));
   }
   
   else if (key === "y"){
     nightWeMet.play();
-    image (whoareyou, random(700), random(700));
+    image (whoareyou, random(500), random(500));
     
   }
   
   else if (key === "x"){
     tuyo.play();
-    image (rusleeping, random(900), random (900));
+    image (rusleeping, random(500), random (500));
     
     
   }
