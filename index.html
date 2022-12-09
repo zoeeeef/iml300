@@ -4,10 +4,35 @@
     <meta charset="UTF-8" />
     <!--Update with your name-->
     <title>Zoe's Homepage</title>
+    <link href="https://getbootstrap.com/docs/4.0/dist/css/bootstrap.min.css" rel="stylesheet">
     <style>  </style>
   </head>
 
-  <body>
+  <body style="background-color: #8fdbeb; ">
+  
+  <header>
+      <!-- Fixed navbar -->
+      <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+        <a class="navbar-brand" href="#">website for IML300 class</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarCollapse">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+            </li>
+            
+          </ul>
+          
+        </div>
+      </nav>
+    </header>
+    
+    <div class="container">
+    
+    
+    
     <div>
       <!--Update with your name-->
       <h1>My name is Zoe</h1>
@@ -45,7 +70,14 @@
     </div>
 
     <h1>Thoughts</h1>
+    </div>
+    
 
-    <footer>Fall, 2022.</footer>
+    
+    <footer class="footer">
+      <div class="container">
+        <span class="text-muted">Fall, 2022.</span>
+      </div>
+    </footer>
   </body>
 </html>
