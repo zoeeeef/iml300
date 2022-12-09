@@ -73,15 +73,15 @@ a {
   font-family: 'Caveat', cursive;
   font-size: 30px;
   display: block;
-  filter: blur(5px);
-  z-index: 0;
+  /*filter: blur(5px);
+  z-index: 0;*/
 }
 
 a:hover {
   text-decoration: none;
   color: black;
-  filter: blur(0px);
-  z-index: -1;
+  /*filter: blur(0px);
+  z-index: -1;*/
 }
 
 h3 {
@@ -90,15 +90,15 @@ h3 {
   font-family: 'Caveat', cursive;
   font-size: 30px;
   display: block;
-  filter: blur(5px);
-  z-index: 0;
+  /*filter: blur(5px);
+  z-index: 0;*/
 }
 
 h3:hover{
   text-decoration: none;
   color: black;
-  filter: blur(0px);
-  z-index: -1;
+  /*filter: blur(0px);
+  z-index: -1;*/
   
 }
 .
