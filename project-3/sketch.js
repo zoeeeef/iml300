@@ -104,12 +104,12 @@ function draw() {
   image(dustyFace, 500, 600);
   image(genieLamp, 700, 400);
     g.position(900,500);
-  p.position(950, 550);
+  p.position(950, 650);
   y.position(1000, 600);
   x.position(940, 490);
-  v.position (870, 510);
-  x.position(895, 507);
-  o.position(960, 575);
+  v.position (870, 530);
+  x.position(900, 507);
+  o.position(1000, 550);
     genieDust.position(-2000, -2000);
     forceSmile.position(-2000, -2000);
     loadingSign.position(-2000, -2000);
