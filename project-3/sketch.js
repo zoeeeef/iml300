@@ -33,7 +33,7 @@ let whoareyou;
 let tuyo;
 let rusleeping;
 let menOnMoon;
-let moonClouds;
+//let moonClouds;
 let g;
 let o;
 let p;
@@ -83,7 +83,7 @@ function preload() {
   v = createImg ("v.png", "blue");
   x = createImg ("x.png", "magenta");
   y = createImg ("y.png", "last one");
-  moonClouds = createImg("moonClouds", "moon clouds");
+  //moonClouds = createImg("moonClouds", "moon clouds");
   menOnMoon = loadSound("menOnMoon.mp3");
   
 
