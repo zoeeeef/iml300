@@ -130,7 +130,7 @@ a.position(500,500);
   let b = createA('about.html',"about page");
   b.style("font-size", "30px");
   b.style("color", 'white');
-  b.position(500, 50);
+  b.position(1000, 50);
     
     console.log(g);
    g.class('draggable');
